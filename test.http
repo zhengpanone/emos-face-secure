@@ -19,7 +19,7 @@ Content-Type: image/jpeg
 @face_encoding = {{createFaceModel.response.body.face_encoding}}
 
 ### 识别人脸
-POST http://localhost:5000/recognize_face
+POST {{baseUrl}}/recognize_face
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW

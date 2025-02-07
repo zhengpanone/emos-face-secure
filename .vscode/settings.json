@@ -1,0 +1,20 @@
+{
+  "rest-client.environmentVariables": {
+    // 共享的环墋变量
+    "$shared": {
+      "version": "v1",
+    },
+    "local": {
+      "baseUrl": "http://localhost:5000",
+      "userId": "123"
+    },
+    "dev": {
+      "baseUrl": "https://dev.example.com",
+      "userId": "1234"
+    },
+    "prod": {
+      "baseUrl": "https://prod.example.com",
+      "userId": "12345"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# 排除所有的 .git 文件夹和文件
+.git
+.gitignore
+
+# 排除虚拟环境目录
+venv/
+env/
+
+# 排除 Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 排除 Dockerfile 和 dockerignore 本身
+Dockerfile
+.dockerignore
+
+# 排除日志文件
+*.log
+
+# 排除任何包含敏感数据的文件
+*.env
